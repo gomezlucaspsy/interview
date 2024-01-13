@@ -1,0 +1,12 @@
+function reverseString(str){
+return str.split("").reverse().join("")
+}
+reverseString("Hello")
+
+
+function reverseString(str){
+	var splitString = str.split("");
+	var reverseArray = splitString.reverse();
+	var joinArray = reverseArray.join("");
+	}
+reverseString("Hello")
